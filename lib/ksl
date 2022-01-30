@@ -1,0 +1,51 @@
+ FlatButton(
+                  shape: CircleBorder(),
+                  color: Colors.white,
+                  onPressed: () {},
+                  child: Padding(
+                    padding: EdgeInsets.all(3),
+                    child: Image.asset('assets/instagram.png'),
+                  ),
+                ),
+                FlatButton(
+                  shape: CircleBorder(),
+                  color: Colors.white,
+                  onPressed: () {},
+                  child: Padding(
+                    padding: EdgeInsets.all(3),
+                    child: Image.asset('assets/faceebook.png'),
+                  ),
+                ),
+                FlatButton(
+                  shape: CircleBorder(),
+                  color: Colors.white,
+                  onPressed: () {},
+                  child: Padding(
+                    padding: EdgeInsets.all(3),
+                    child: Image.asset('assets/twitterr.png'),
+                  ),
+                ),
+                FlatButton(
+                  shape: CircleBorder(),
+                  color: Colors.white,
+                  onPressed: () {},
+                  child: Padding(
+                    padding: EdgeInsets.all(3),
+                    child: Image.asset('assets/youtube.png'),
+                  ),
+                ),
+
+
+
+
+
+
+
+                 new Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      new Image.asset(
+                        'assets/annocment_icon.png',
+                        height: 40.0,
+                        width: 40.0,
+                      ),
